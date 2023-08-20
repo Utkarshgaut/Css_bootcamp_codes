@@ -1,0 +1,19 @@
+.container {
+    width: 700px;
+    margin: 10px auto;
+    position: relative;
+}
+
+.image {
+    width: 100%;
+    border-radius: 17px;
+}
+
+.content {
+    position: absolute;
+    bottom: 7px;
+    /* top: 50%; Adjust this value to vertically center the content */
+    /* left: 50%; Adjust this value to horizontally center the content */
+    /* transform: translate(-50%, -50%); Centering trick */
+    text-align: center;
+}
